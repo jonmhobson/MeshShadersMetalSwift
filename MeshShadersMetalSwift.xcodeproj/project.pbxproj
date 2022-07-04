@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9AE58CE1286F3D3A005F76B9 /* MeshShadersMetalSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE58CE0286F3D3A005F76B9 /* MeshShadersMetalSwiftApp.swift */; };
-		9AE58CE3286F3D3A005F76B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE58CE2286F3D3A005F76B9 /* ContentView.swift */; };
 		9AE58CE5286F3D3A005F76B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE58CE4286F3D3A005F76B9 /* Assets.xcassets */; };
-		9AE58CE8286F3D3A005F76B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE58CE7286F3D3A005F76B9 /* Preview Assets.xcassets */; };
 		9AE58CF0286F3D92005F76B9 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE58CEF286F3D92005F76B9 /* MetalView.swift */; };
 		9AE58CF2286F3E3E005F76B9 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE58CF1286F3E3E005F76B9 /* Renderer.swift */; };
 		9AE58CF7286F5A3E005F76B9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9AE58CF6286F5A3E005F76B9 /* Shaders.metal */; };
@@ -19,9 +17,7 @@
 /* Begin PBXFileReference section */
 		9AE58CDD286F3D3A005F76B9 /* MeshShadersMetalSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshShadersMetalSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE58CE0286F3D3A005F76B9 /* MeshShadersMetalSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshShadersMetalSwiftApp.swift; sourceTree = "<group>"; };
-		9AE58CE2286F3D3A005F76B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AE58CE4286F3D3A005F76B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AE58CE7286F3D3A005F76B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AE58CE9286F3D3A005F76B9 /* MeshShadersMetalSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeshShadersMetalSwift.entitlements; sourceTree = "<group>"; };
 		9AE58CEF286F3D92005F76B9 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		9AE58CF1286F3E3E005F76B9 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
@@ -65,21 +61,11 @@
 				9AE58CF1286F3E3E005F76B9 /* Renderer.swift */,
 				9AE58CF6286F5A3E005F76B9 /* Shaders.metal */,
 				9AE58CF8286F6FB9005F76B9 /* AAPLShaderTypes.h */,
-				9AE58CE2286F3D3A005F76B9 /* ContentView.swift */,
 				9AE58CE4286F3D3A005F76B9 /* Assets.xcassets */,
 				9AE58CE9286F3D3A005F76B9 /* MeshShadersMetalSwift.entitlements */,
-				9AE58CE6286F3D3A005F76B9 /* Preview Content */,
 				9AE58CF9286F715D005F76B9 /* MeshShadersMetalSwift-Bridging-Header.h */,
 			);
 			path = MeshShadersMetalSwift;
-			sourceTree = "<group>";
-		};
-		9AE58CE6286F3D3A005F76B9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9AE58CE7286F3D3A005F76B9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE58CE8286F3D3A005F76B9 /* Preview Assets.xcassets in Resources */,
 				9AE58CE5286F3D3A005F76B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +140,6 @@
 			files = (
 				9AE58CF2286F3E3E005F76B9 /* Renderer.swift in Sources */,
 				9AE58CF0286F3D92005F76B9 /* MetalView.swift in Sources */,
-				9AE58CE3286F3D3A005F76B9 /* ContentView.swift in Sources */,
 				9AE58CE1286F3D3A005F76B9 /* MeshShadersMetalSwiftApp.swift in Sources */,
 				9AE58CF7286F5A3E005F76B9 /* Shaders.metal in Sources */,
 			);

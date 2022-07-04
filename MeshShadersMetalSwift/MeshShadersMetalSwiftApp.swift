@@ -1,10 +1,3 @@
-//
-//  MeshShadersMetalSwiftApp.swift
-//  MeshShadersMetalSwift
-//
-//  Created by Jonathan Hobson on 01/07/2022.
-//
-
 import SwiftUI
 import Foundation
 import AppKit
@@ -21,7 +14,7 @@ struct MeshShadersMetalSwiftApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MetalView()
         }
     }
 }

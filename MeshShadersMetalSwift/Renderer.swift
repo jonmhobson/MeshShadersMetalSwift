@@ -14,20 +14,6 @@ let kMaxThreadgroupsPerMeshGrid = 8
 
 typealias AAPLIndexType = UInt16
 
-struct AAPLIndexRange {
-    let startIndex: UInt32
-    let lastIndex: UInt32
-    let startVertexIndex: UInt32
-    let vertexCount: UInt32
-    let primitiveCount: UInt32
-}
-
-struct AAPLVertex {
-    let positon: simd_float4
-    let normal: simd_float4
-    let uv: simd_float2
-}
-
 struct AAPLMeshInfo {
     let numLODs: UInt16 = 3
     let patchIndex: UInt16
@@ -224,7 +210,7 @@ final class Renderer: NSObject {
                 let normal = simd_make_float4(N.x, N.y, N.z, 0)
                 let uv = simd_make_float2(Float(i) / Float(segmentsX), Float(j) / Float(segmentsY))
 
-                vertices.append(AAPLVertex(positon: position, normal: normal, uv: uv))
+                vertices.append(AAPLVertex(position: position, normal: normal, uv: uv))
             }
         }
 

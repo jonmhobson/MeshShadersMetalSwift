@@ -13,6 +13,7 @@ This file provides definitions that both the app and the shader use.
 using AAPLIndexType = uint16_t;
 
 #else
+
 #define constant
 #define constexpr const
 #define using typedef

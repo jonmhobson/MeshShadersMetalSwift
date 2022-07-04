@@ -104,6 +104,7 @@ final class Renderer: NSObject {
 
         metalView.delegate = self
         metalView.clearColor = MTLClearColor(red: 0.65, green: 0.75, blue: 0.85, alpha: 1.0)
+        metalView.preferredFramesPerSecond = 120
 
         buildShaders()
         makeMeshlets()

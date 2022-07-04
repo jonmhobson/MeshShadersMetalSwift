@@ -78,7 +78,7 @@ struct MetalView: View {
                     }
                     .pickerStyle(.segmented)
                 }
-                .frame(maxWidth: 300)
+                .frame(width: 300)
                 .padding()
 
                 Spacer()
@@ -90,14 +90,11 @@ struct MetalView: View {
                         Text("Normal").tag(Speed.fast)
                     }
                     .pickerStyle(.segmented)
-
                     Slider(value: $viewInteractor.translation) { Text("Translation") }
                 }
-                .frame(maxWidth: 300)
+                .frame(width: 300)
                 .padding()
             }
-
-
         }
     }
 }
